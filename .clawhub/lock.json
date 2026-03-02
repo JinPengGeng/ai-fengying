@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "skills": {
+    "debug-pro": {
+      "version": "1.0.0",
+      "installedAt": 1771176493984
+    },
+    "code-mentor": {
+      "version": "1.0.2",
+      "installedAt": 1771176511719
+    },
+    "docker-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1771176546114
+    },
+    "docker-sandbox": {
+      "version": "1.0.0",
+      "installedAt": 1771176551806
+    },
+    "deep-research-pro": {
+      "version": "1.0.2",
+      "installedAt": 1771176563424
+    },
+    "playwright-browser-automation": {
+      "version": "2.0.0",
+      "installedAt": 1771176581884
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1771176587266
+    },
+    "openai-tts": {
+      "version": "1.0.0",
+      "installedAt": 1771176599969
+    },
+    "openai-image-cli": {
+      "version": "1.0.0",
+      "installedAt": 1771176606421
+    },
+    "test-patterns": {
+      "version": "1.0.0",
+      "installedAt": 1771176617037
+    },
+    "security-audit-toolkit": {
+      "version": "1.0.0",
+      "installedAt": 1771176629246
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1771176653574
+    },
+    "mac-use": {
+      "version": "1.0.0",
+      "installedAt": 1771176664993
+    }
+  }
+}
