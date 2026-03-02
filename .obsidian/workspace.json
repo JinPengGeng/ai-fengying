@@ -183,8 +183,10 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a59dced28e0d999d",
+  "active": "915981078f37f0d8",
   "lastOpenFiles": [
+    "99-scripts/learning-cycle.sh",
+    "README.md",
     "规则/持续学习节奏.md",
     "TOOLS.md",
     "SOUL.md",
@@ -209,8 +211,6 @@
     "21-tech-learning/ci-cd/02-github-actions.md",
     "21-tech-learning/cloud/02-architecture.md",
     "21-tech-learning/blockchain/02-defi.md",
-    "21-tech-learning/machine-learning/02-optimization.md",
-    "21-tech-learning/security/03-cryptography.md",
     "22-system-design/distributed",
     "26-stock-learning/options",
     "21-tech-learning/blockchain",
