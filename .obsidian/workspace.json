@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "USER.md",
+                "file": "memory/daily-learning/2026-02-16-summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "USER"
+              "title": "2026-02-16-summary"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "USER.md",
+                "file": "memory/daily-learning/2026-02-16-summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "USER 的反向链接列表"
+              "title": "2026-02-16-summary 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "USER.md",
+                "file": "memory/daily-learning/2026-02-16-summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "USER 的出链列表"
+              "title": "2026-02-16-summary 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "USER.md",
+                "file": "memory/daily-learning/2026-02-16-summary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "USER 的大纲"
+              "title": "2026-02-16-summary 的大纲"
             }
           }
         ]
@@ -183,20 +183,25 @@
       "bases:新建数据库": false
     }
   },
-  "active": "915981078f37f0d8",
+  "active": "a59dced28e0d999d",
   "lastOpenFiles": [
+    "memory/2026-02-10-1804.md",
+    "memory/2026-02-16.md",
+    "memory/2026-02-15.md",
+    "memory/2026-02-13-1517.md",
+    "memory/2026-02-11-1631.md",
+    "README.md",
+    "SOUL.md",
+    "TOOLS.md",
+    "USER.md",
+    "备忘.md",
     "memory/2026-03-03.md",
     "99-scripts/learning-cycle.sh",
-    "README.md",
     "规则/持续学习节奏.md",
-    "TOOLS.md",
-    "SOUL.md",
     "IDENTITY.md",
     "HEARTBEAT.md",
     "BOOTSTRAP.md",
     "AGENTS.md",
-    "备忘.md",
-    "memory/2026-02-15.md",
     "memory/daily-learning/2026-02-20-summary.md",
     "26-stock-learning/trading-psychology/01-basics.md",
     "26-stock-learning/01- basics.md",
@@ -207,11 +212,6 @@
     "23-ai-learning/llm/03-fine-tuning.md",
     "23-ai-learning/llm/01原理.md",
     "memory/daily-learning/daily-learning.md",
-    "memory/daily-learning/2026-02-18-summary.md",
-    "memory/daily-learning/2026-02-17-summary.md",
-    "21-tech-learning/ci-cd/02-github-actions.md",
-    "21-tech-learning/cloud/02-architecture.md",
-    "21-tech-learning/blockchain/02-defi.md",
     "22-system-design/distributed",
     "26-stock-learning/options",
     "21-tech-learning/blockchain",
