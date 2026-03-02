@@ -185,6 +185,7 @@
   },
   "active": "915981078f37f0d8",
   "lastOpenFiles": [
+    "memory/2026-03-03.md",
     "99-scripts/learning-cycle.sh",
     "README.md",
     "规则/持续学习节奏.md",
@@ -219,7 +220,6 @@
     "21-tech-learning/computer-science",
     "21-tech-learning/machine-learning",
     "21-tech-learning/frontend",
-    "21-tech-learning/go",
-    "21-tech-learning/typescript"
+    "21-tech-learning/go"
   ]
 }
