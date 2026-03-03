@@ -52,6 +52,22 @@
     "mac-use": {
       "version": "1.0.0",
       "installedAt": 1771176664993
+    },
+    "mh-obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1772547723859
+    },
+    "obsidian-organizer": {
+      "version": "1.0.0",
+      "installedAt": 1772547728955
+    },
+    "save-to-obsidian": {
+      "version": "1.1.0",
+      "installedAt": 1772547734082
+    },
+    "obsidian-task": {
+      "version": "1.0.1",
+      "installedAt": 1772547742605
     }
   }
 }
