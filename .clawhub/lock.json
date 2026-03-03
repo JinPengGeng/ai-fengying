@@ -68,6 +68,10 @@
     "obsidian-task": {
       "version": "1.0.1",
       "installedAt": 1772547742605
+    },
+    "obsidian-cli-official": {
+      "version": "4.0.0",
+      "installedAt": 1772550062320
     }
   }
 }
