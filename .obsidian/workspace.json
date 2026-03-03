@@ -185,6 +185,7 @@
   },
   "active": "a59dced28e0d999d",
   "lastOpenFiles": [
+    "99-scripts/IMPROVEMENTS.md",
     "skills/obsidian-task/_meta.json",
     "skills/obsidian-task/SKILL.md",
     "skills/obsidian-task",
@@ -201,7 +202,6 @@
     "skills/save-to-obsidian/CHANGELOG.md",
     "skills/save-to-obsidian",
     "skills/obsidian-organizer/references/naming-rules.md",
-    "skills/obsidian-organizer/scripts/obsidian_audit.py",
     "skills/obsidian-organizer/references/migration-checklist.md",
     "skills/obsidian-organizer/references/folder-structure.md",
     "skills/obsidian-organizer/SKILL.md",
