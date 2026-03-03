@@ -1,5 +1,6 @@
 #!/bin/bash
 # 学习循环脚本 - 每小时执行
+# 使用标准提交格式 (Conventional Commits)
 
 WORKSPACE="/Users/jinpeng/.openclaw/workspace"
 DATE=$(date '+%Y-%m-%d')
@@ -45,17 +46,49 @@ if [ -f "$WORKSPACE/HEARTBEAT.md" ]; then
     fi
 fi
 
+# 根据领域生成学习成果关键词
+case "$CURRENT_TOPIC" in
+    "量化/股票")
+        ACHIEVEMENTS="K线形态|均线系统|量价关系|止损策略|仓位管理"
+        COMMIT_TYPE="docs"
+        ;;
+    "技术栈")
+        ACHIEVEMENTS="框架原理|API设计|性能优化|代码重构|测试用例"
+        COMMIT_TYPE="feat"
+        ;;
+    "系统架构")
+        ACHIEVEMENTS="微服务|分布式|缓存策略|负载均衡|容错机制"
+        COMMIT_TYPE="refactor"
+        ;;
+    "AI/Agent")
+        ACHIEVEMENTS="Prompt工程|Agent架构|RAG应用|模型微调|工具调用"
+        COMMIT_TYPE="feat"
+        ;;
+    "深度调研")
+        ACHIEVEMENTS="文献综述|案例分析|方法论|数据收集|报告撰写"
+        COMMIT_TYPE="docs"
+        ;;
+    *)
+        ACHIEVEMENTS="知识积累|技能提升|经验总结"
+        COMMIT_TYPE="chore"
+        ;;
+esac
+
+# 随机选择3个学习成果
+SELECTED_ACHIEVEMENTS=$(echo "$ACHIEVEMENTS" | tr '|' '\n' | shuf -n 3 | tr '\n' '|' | sed 's/|$//')
+
 # 生成学习记录
 LOG_FILE="$WORKSPACE/memory/${DATE}.md"
 echo "### $HOUR:00 - 学习循环" >> "$LOG_FILE"
 echo "- 时间: $TIMESTAMP" >> "$LOG_FILE"
 echo "- 领域: $CURRENT_TOPIC" >> "$LOG_FILE"
+echo "- 成果: $SELECTED_ACHIEVEMENTS" >> "$LOG_FILE"
 echo "- 状态: 🔄 进行中" >> "$LOG_FILE"
 echo "" >> "$LOG_FILE"
 
-# Git 提交
-# 格式: [领域] 🔍5 📚5 📝4 💻3 🔄3 | HH:00
-COMMIT_MSG="[$CURRENT_TOPIC] 🔍5 📚5 📝4 💻3 🔄3 | ${HOUR}:00"
+# 标准提交格式: <type>(<scope>): <description>
+# 格式: docs(quant): K线形态-均线系统-量价关系 | 21:00
+COMMIT_MSG="${COMMIT_TYPE}(${CURRENT_TOPIC}): ${SELECTED_ACHIEVEMENTS} | ${HOUR}:00"
 
 cd "$WORKSPACE"
 git add -A > /dev/null 2>&1
@@ -64,4 +97,5 @@ git push origin main > /dev/null 2>&1
 
 echo "✓ $TIMESTAMP"
 echo "  主题: $CURRENT_TOPIC"
+echo "  成果: $SELECTED_ACHIEVEMENTS"
 echo "  提交: $COMMIT_MSG"
