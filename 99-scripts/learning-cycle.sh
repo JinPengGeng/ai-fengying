@@ -95,11 +95,41 @@ echo "" >> "$LOG_FILE"
 COMMIT_MSG="${COMMIT_TYPE}(${CURRENT_TOPIC}): ${SELECTED_ACHIEVEMENTS} | ${HOUR}:00"
 
 cd "$WORKSPACE"
-git add -A > /dev/null 2>&1
-git commit -m "$COMMIT_MSG" > /dev/null 2>&1
-git push origin main > /dev/null 2>&1
 
-echo "✓ $TIMESTAMP"
-echo "  主题: $CURRENT_TOPIC"
-echo "  成果: $SELECTED_ACHIEVEMENTS"
-echo "  提交: $COMMIT_MSG"
+# Git 提交并推送（确保成功）
+git add -A > /dev/null 2>&1
+
+# 检查是否有内容需要提交
+if git diff --cached --quiet 2>/dev/null; then
+    echo "⚠️ $TIMESTAMP - 无新内容需要提交"
+else
+    # 提交
+    git commit -m "$COMMIT_MSG" > /dev/null 2>&1
+    
+    # 推送并验证（重试机制）
+    MAX_RETRIES=3
+    RETRY_COUNT=0
+    PUSH_SUCCESS=false
+    
+    while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$PUSH_SUCCESS" = "false" ]; do
+        if git push origin main > /tmp/git_push.log 2>&1; then
+            PUSH_SUCCESS=true
+        else
+            RETRY_COUNT=$((RETRY_COUNT + 1))
+            if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                sleep 2
+            fi
+        fi
+    done
+    
+    if [ "$PUSH_SUCCESS" = "true" ]; then
+        echo "✓ $TIMESTAMP"
+        echo "  主题: $CURRENT_TOPIC"
+        echo "  成果: $SELECTED_ACHIEVEMENTS"
+        echo "  提交: $COMMIT_MSG"
+        echo "  推送: ✅ 已推送到 GitHub"
+    else
+        echo "✗ $TIMESTAMP - 推送失败"
+        cat /tmp/git_push.log
+    fi
+fi
