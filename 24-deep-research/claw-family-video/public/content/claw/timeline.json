@@ -1,0 +1,466 @@
+{
+  "elements": [
+    {
+      "startMs": 0,
+      "endMs": 9150,
+      "imageUrl": "6471f92f-8635-4ebd-b696-b3251e05c83d",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1.5,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 9150
+        }
+      ]
+    },
+    {
+      "startMs": 9150,
+      "endMs": 16500,
+      "imageUrl": "23c1f76d-0071-4ff7-aaab-e01dd5419b6a",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.5,
+          "startMs": 0,
+          "endMs": 7350
+        }
+      ]
+    },
+    {
+      "startMs": 16500,
+      "endMs": 24150,
+      "imageUrl": "f47b6bb7-0569-45c4-93e2-e3efa8473126",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1.5,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 7650
+        }
+      ]
+    },
+    {
+      "startMs": 24150,
+      "endMs": 30900,
+      "imageUrl": "b1b2436a-376b-47fc-b2f9-f754795620b2",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.5,
+          "startMs": 0,
+          "endMs": 6750
+        }
+      ]
+    },
+    {
+      "startMs": 30900,
+      "endMs": 37200,
+      "imageUrl": "ac24a4a5-df5d-454b-985a-84f0bf889b88",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1.5,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 6300
+        }
+      ]
+    },
+    {
+      "startMs": 37200,
+      "endMs": 45000,
+      "imageUrl": "c9b3671f-eec0-4732-962f-5f2c308cb658",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.5,
+          "startMs": 0,
+          "endMs": 7800
+        }
+      ]
+    },
+    {
+      "startMs": 45000,
+      "endMs": 54150,
+      "imageUrl": "87155ae4-7031-4a20-bd35-dc8d578d28e6",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1.5,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 9150
+        }
+      ]
+    },
+    {
+      "startMs": 54150,
+      "endMs": 59400,
+      "imageUrl": "6a4739c7-bd15-4efe-83fd-231bdee8484e",
+      "enterTransition": "blur",
+      "exitTransition": "blur",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.5,
+          "startMs": 0,
+          "endMs": 5250
+        }
+      ]
+    }
+  ],
+  "text": [
+    {
+      "startMs": 0,
+      "endMs": 0,
+      "text": "",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.544802889317318,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 0,
+      "endMs": 9150,
+      "text": "在东京涩谷的深夜实验室里，Claw家族的第三代AI代理正调试着神经接口，而隔壁硅谷的同类系统却因过度依赖云端推理频繁断连；",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 9150,
+      "endMs": 9150,
+      "text": "",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6493952819475559,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 9150,
+      "endMs": 16500,
+      "text": "上海张江的Claw轻量版用本地化小模型完成实时方言翻译，旧金山团队则还在为多语言微调耗费数周算力；",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.648638025071973,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 16500,
+      "endMs": 16500,
+      "text": "",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 16500,
+      "endMs": 24150,
+      "text": "柏林工程师发现Claw的自主工具调用链能动态切换API供应商，而竞品仍硬编码三家服务商导致故障率飙升；",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6842167497162596,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 24150,
+      "endMs": 24150,
+      "text": "",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6966460357626182,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 24150,
+      "endMs": 30900,
+      "text": "当孟买贫民窟诊所用Claw离线医疗助手诊断疟疾时，某国际平台因数据合规审查停摆七十二小时；",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 30900,
+      "endMs": 30900,
+      "text": "",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6160926112164664,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 30900,
+      "endMs": 37200,
+      "text": "首尔高中生用Claw教育代理自动生成韩英双语习题，其知识蒸馏机制比传统RAG快四倍；",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 37200,
+      "endMs": 37200,
+      "text": "",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 37200,
+      "endMs": 45000,
+      "text": "但最震撼的是肯尼亚农民手持Claw农业Agent，在无网环境下通过边缘计算识别病虫害并推送本地防治方案；",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5260223229665115,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 45000,
+      "endMs": 45000,
+      "text": "",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.5537747265429924,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    },
+    {
+      "startMs": 45000,
+      "endMs": 54150,
+      "text": "这并非技术参数的罗列，而是生态韧性的无声宣言——当别人在修服务器集群的围城，Claw家族早已把根系扎进每寸未被照亮的土壤；",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 0.6097648026722349,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 54150,
+      "endMs": 54150,
+      "text": "",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "startMs": 0,
+          "endMs": 300
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "startMs": 300,
+          "endMs": 500
+        }
+      ]
+    },
+    {
+      "startMs": 54150,
+      "endMs": 59400,
+      "text": "它们不争算力峰值，只问谁真正抵达了用户指尖与呼吸之间那0.3秒的间隙。",
+      "position": "center",
+      "animations": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1,
+          "startMs": 0,
+          "endMs": 300
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "startMs": 0,
+      "endMs": 9150,
+      "audioUrl": "6471f92f-8635-4ebd-b696-b3251e05c83d"
+    },
+    {
+      "startMs": 9150,
+      "endMs": 16500,
+      "audioUrl": "23c1f76d-0071-4ff7-aaab-e01dd5419b6a"
+    },
+    {
+      "startMs": 16500,
+      "endMs": 24150,
+      "audioUrl": "f47b6bb7-0569-45c4-93e2-e3efa8473126"
+    },
+    {
+      "startMs": 24150,
+      "endMs": 30900,
+      "audioUrl": "b1b2436a-376b-47fc-b2f9-f754795620b2"
+    },
+    {
+      "startMs": 30900,
+      "endMs": 37200,
+      "audioUrl": "ac24a4a5-df5d-454b-985a-84f0bf889b88"
+    },
+    {
+      "startMs": 37200,
+      "endMs": 45000,
+      "audioUrl": "c9b3671f-eec0-4732-962f-5f2c308cb658"
+    },
+    {
+      "startMs": 45000,
+      "endMs": 54150,
+      "audioUrl": "87155ae4-7031-4a20-bd35-dc8d578d28e6"
+    },
+    {
+      "startMs": 54150,
+      "endMs": 59400,
+      "audioUrl": "6a4739c7-bd15-4efe-83fd-231bdee8484e"
+    }
+  ],
+  "shortTitle": "Claw 家族对比"
+}

@@ -1,0 +1,55 @@
+{
+  "shortTitle": "Claw 家族对比",
+  "content": [
+    {
+      "text": "AI Agent 生态正在蓬勃发展，今天我们来深入了解 Claw 家族的五大成员：OpenClaw、HiClaw、ZeroClaw、NanoClaw 和 IronClaw。",
+      "imageDescription": "A futuristic tech landscape with five distinct AI agent avatars floating in a cosmic digital space, each with unique colors and designs representing different Claw family members, connected by glowing data streams",
+      "uid": "intro-claw-family"
+    },
+    {
+      "text": "OpenClaw 是 AI Agent 操作系统的原生标杆，拥有超过 26 万 GitHub Stars，支持 50 多个消息平台集成，采用三层记忆架构和丰富的 ClawHub 插件生态。",
+      "imageDescription": "A majestic lobster-shaped AI agent icon surrounded by integration icons of various messaging platforms like Discord, Slack, Telegram, floating in a vibrant tech ecosystem with code snippets and memory layers visible",
+      "uid": "openclaw-intro"
+    },
+    {
+      "text": "HiClaw 专注于多智能体协作，基于 Matrix 协议实现分布式通信，采用 Manager-Worker 模式，适合需要大规模 Agent 协同工作的复杂场景。",
+      "imageDescription": "A network visualization showing multiple AI agents connected in a matrix-style grid, with a central manager node coordinating worker nodes, data flowing between them in a synchronized dance",
+      "uid": "hiclaw-intro"
+    },
+    {
+      "text": "ZeroClaw 是基于 Rust 的轻量级运行时，内存占用不到 5MB，启动时间小于 10 毫秒，采用 Trait 驱动架构实现编译时安全验证。",
+      "imageDescription": "A sleek, minimalist lightning bolt icon representing speed and efficiency, with Rust gear symbols and performance metrics showing ultra-low memory footprint and instant startup times",
+      "uid": "zeroclaw-intro"
+    },
+    {
+      "text": "NanoClaw 倡导极简主义设计，使用 OS 级容器隔离确保安全，采用 Agent Swarm 协作模型，适合轻量级任务和边缘计算场景。",
+      "imageDescription": "A swarm of tiny, elegant AI particles working together in harmony, contained within secure container boundaries, representing minimalist design with powerful collective intelligence",
+      "uid": "nanoclaw-intro"
+    },
+    {
+      "text": "IronClaw 由 Transformer 作者 Illia Polosukhin 打造，采用四层纵深防御架构：Rust 内存安全、WASM 沙箱、加密凭证库和可信执行环境 TEE 支持。",
+      "imageDescription": "A fortress-like shield with four layered defenses visible - a Rust foundation, WASM sandbox walls, encrypted vault in the center, and TEE hardware security envelope, all glowing with protective energy",
+      "uid": "ironclaw-intro"
+    },
+    {
+      "text": "在性能对比中，ZeroClaw 以不到 5MB 内存和 10 毫秒启动时间领先，而 OpenClaw 功能最全但资源消耗最高，需要超过 1GB 内存。",
+      "imageDescription": "A dynamic comparison chart showing five bars representing memory usage and startup times, with ZeroClaw at the minimal end and OpenClaw at the maximum, visualized with speed and efficiency icons",
+      "uid": "performance-comparison"
+    },
+    {
+      "text": "安全方面，IronClaw 的四层防御最为完善，适合金融医疗等高安全场景。NanoClaw 使用容器隔离，ZeroClaw 依赖编译时验证，各有特色。",
+      "imageDescription": "A security comparison visualization with IronClaw's four-layer shield at the top, NanoClaw's container bubble, and ZeroClaw's compile-time checkmark, each protecting sensitive data icons",
+      "uid": "security-comparison"
+    },
+    {
+      "text": "选型建议：企业级应用选 OpenClaw，多智能体协作选 HiClaw，极致性能选 ZeroClaw，极简场景选 NanoClaw，安全优先选 IronClaw。",
+      "imageDescription": "A decision tree infographic showing different use cases branching to the recommended Claw variant, with icons representing enterprise, collaboration, performance, minimalism, and security",
+      "uid": "selection-guide"
+    },
+    {
+      "text": "Claw 家族代表了 AI Agent 技术的不同发展方向，无论你的需求是什么，总有一款适合你。感谢观看！",
+      "imageDescription": "A grand finale showing all five Claw family members united in a harmonious circle, with the text 'Choose Your Claw' and a call-to-action, surrounded by a galaxy of AI possibilities",
+      "uid": "outro"
+    }
+  ]
+}
