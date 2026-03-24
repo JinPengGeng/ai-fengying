@@ -15,7 +15,24 @@ id_ed25519*
 tmp/
 temp/
 *.log
+.tmp/
 
 # 密钥相关
 credentials.json
 secrets/
+
+# Node.js
+node_modules/
+package.json
+package-lock.json
+
+# OpenClaw 动态文件
+.clawhub/
+memory/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
